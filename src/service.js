@@ -1,6 +1,8 @@
 import axios from 'axios'
 import Nprogress from 'nprogress'
 import 'nprogress/nprogress.css'
+
+// eslint-disable-next-line
 import { BASE_URL, NGROK_URL } from './constants'
 const getToken = () => {
   return JSON.parse(localStorage.getItem('user'))?.userToken

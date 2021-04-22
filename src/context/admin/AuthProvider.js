@@ -1,6 +1,8 @@
 import AuthContext from '../authContext'
 import axios from 'axios'
 import { apiClient } from '../../service'
+
+// eslint-disable-next-line
 import { NGROK_URL, BASE_URL } from '../../constants'
 
 const AdminAuthProvider = ({ children }) => {
